@@ -1,0 +1,51 @@
+@charset "UTF-8";
+ 
+@font-face {
+    font-family: 'PassionOne-Bold' ;
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Sriracha-Regular' ;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+h1 {
+    font-family: 'PassionOne-Bold';
+    font-weight: 10px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+} 
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Sriracha-Regular';
+}
+
+div {
+    background-image: url(imagens/background001.png);
+    width: 500px;
+    height: 487px;
+}
+
+p#outro {
+    color: white;
+    background-color: rgba(0, 128, 0, 0.288);
+}

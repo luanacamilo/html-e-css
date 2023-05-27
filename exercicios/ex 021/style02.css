@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(241, 201, 208);
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px ;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+div#first {
+    background-color: rgb(193, 193, 230);
+}
+
+div#second {
+    background-color: rgb(210, 177, 231) ;
+}
+
+div#third {
+    background-color: rgb(221, 170, 214);
+}
+
+h1#primeiro {
+    color: rgb(118, 118, 170);
+}
+
+h1#segundo {
+    color: rgb(145, 122, 160);
+}
+
+h1#terceiro {
+    color: rgb(170, 115, 163);
+}
+
+div > p.esconde {
+    display: none;
+}
+
+div:hover > p.esconde {
+    display: block;
+}
+
+div:hover > p.esconde {
+    color: blue;
+}
