@@ -23,6 +23,7 @@ header li {
 
 menu {
     display: none;
+    text-align: center;
 }
 
 header a {
